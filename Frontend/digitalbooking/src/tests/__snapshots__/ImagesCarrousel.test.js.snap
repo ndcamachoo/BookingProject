@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <ImagesCarrousel/> Comprobar que <ImagesCarrousel/> renderiza correctamente. 1`] = `
+<div
+  className="carouselContainer"
+>
+  <h5
+    className="close"
+    onClick={[Function]}
+  >
+    X
+  </h5>
+  <Carousel
+    animationHandler="slide"
+    autoPlay={true}
+    axis="horizontal"
+    centerSlidePercentage={80}
+    infiniteLoop={false}
+    interval={3000}
+    labels={
+      Object {
+        "item": "slide item",
+        "leftArrow": "previous slide / item",
+        "rightArrow": "next slide / item",
+      }
+    }
+    onChange={[Function]}
+    onClickItem={[Function]}
+    onClickThumb={[Function]}
+    onSwipeEnd={[Function]}
+    onSwipeMove={[Function]}
+    onSwipeStart={[Function]}
+    preventMovementUntilSwipeScrollTolerance={false}
+    renderArrowNext={[Function]}
+    renderArrowPrev={[Function]}
+    renderIndicator={[Function]}
+    renderItem={[Function]}
+    renderThumbs={[Function]}
+    selectedItem={0}
+    showArrows={true}
+    showIndicators={true}
+    showStatus={true}
+    showThumbs={true}
+    statusFormatter={[Function]}
+    stopOnHover={true}
+    stopSwipingHandler={[Function]}
+    swipeAnimationHandler={[Function]}
+    swipeScrollTolerance={5}
+    swipeable={true}
+    thumbWidth={100}
+    transitionTime={1400}
+    verticalSwipe="standard"
+    width="100%"
+  >
+    <div>
+      <img
+        alt="Imagen del producto"
+        src="../assets/hotels.png"
+      />
+    </div>
+    <div>
+      <img
+        alt="Imagen del producto"
+        src="../assets/hotels.png"
+      />
+    </div>
+    <div>
+      <img
+        alt="Imagen del producto"
+        src="../assets/hotels.png"
+      />
+    </div>
+    <div>
+      <img
+        alt="Imagen del producto"
+        src="../assets/hotels.png"
+      />
+    </div>
+    <div>
+      <img
+        alt="Imagen del producto"
+        src="../assets/hotels.png"
+      />
+    </div>
+  </Carousel>
+</div>
+`;

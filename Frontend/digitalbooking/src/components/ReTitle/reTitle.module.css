@@ -1,0 +1,26 @@
+.titles{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+}
+
+.titles h5{
+    font-size: 18px;
+    overflow:hidden;
+    padding-top:2px ;
+    text-overflow:ellipsis;    
+    white-space:nowrap;
+    width: 100%;
+}
+
+.titles p{
+    font-size: 11px;
+    
+}
+
+@media (max-width: 480px){
+    .titles p{
+        padding-top: 0px;
+    }
+
+}

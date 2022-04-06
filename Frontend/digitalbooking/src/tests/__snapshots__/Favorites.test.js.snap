@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Favorites /> Comprobar que <Favorites /> renderiza correctamente. 1`] = `
+<div>
+  <div
+    className="notFav"
+  >
+    <i
+      className="fal fa-heart"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

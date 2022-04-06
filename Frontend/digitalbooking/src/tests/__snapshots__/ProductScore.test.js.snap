@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente  ProductScore /> Comprobar que  ProductScore /> renderiza correctamente. 1`] = `
+<div
+  className="review"
+>
+  <div
+    className="reviewDetail"
+  >
+    <h6>
+      Muy bueno
+    </h6>
+    <div
+      className="stars"
+    >
+      <i
+        className="fas fa-star"
+      />
+      <i
+        className="fas fa-star"
+      />
+      <i
+        className="fas fa-star"
+      />
+      <i
+        className="fas fa-star"
+      />
+      <i
+        className="fas fa-star"
+      />
+    </div>
+  </div>
+  <h5>
+    8
+  </h5>
+</div>
+`;

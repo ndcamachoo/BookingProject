@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <SearchBar /> Comprobar que <SearchBar /> renderiza correctamente. 1`] = `
+<Fragment>
+  <div
+    className="search"
+  >
+    <p>
+      Busca ofertas en hoteles, casas y mucho más
+    </p>
+    <section>
+      <ContextProvider
+        value={
+          Object {
+            "place": false,
+            "setPlace": [Function],
+          }
+        }
+      >
+        <Placepicker />
+      </ContextProvider>
+      <ContextProvider
+        value={
+          Object {
+            "date": false,
+            "setDate": [Function],
+          }
+        }
+      >
+        <DatePicker2
+          dateFormat="dd/MM/yyyy"
+        />
+      </ContextProvider>
+      <Button2
+        handleClick={[Function]}
+        link="/product"
+        text="Buscar"
+      />
+    </section>
+  </div>
+</Fragment>
+`;

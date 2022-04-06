@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente  ReCard /> Comprobar que  ReCard /> renderiza correctamente. 1`] = `
+<Fragment>
+  <article
+    className="recommendationCards"
+  >
+    <img
+      alt="Hotel Hermitage"
+      src="https://images.unsplash.com/photo-1440778303588-435521a205bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9saWRheXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    />
+    <div
+      className="container"
+    >
+      <div
+        className="reCardTitle"
+      >
+        <ReTitle
+          title="Hotel Hermitage"
+          type="hotel"
+        />
+        <ReviewCount
+          rate={9}
+        />
+      </div>
+      <div
+        className="location"
+      >
+        <p>
+          A 940 mts del centro
+        </p>
+        <h6
+          onClick={[Function]}
+        >
+          MOSTRAR EN EL MAPA
+        </h6>
+      </div>
+      <ReServices
+        locServices={
+          Array [
+            "Wifi",
+            "kitchen",
+            " parking",
+            "airconditioning",
+          ]
+        }
+      />
+      <div
+        className="description"
+      >
+        <p>
+           Lorem ipsum dolor sit amet consectetur adipiscing elit
+        </p>
+      </div>
+      <Link
+        to="/product/1"
+      >
+         
+        <button>
+          Ver más
+        </button>
+      </Link>
+    </div>
+  </article>
+</Fragment>
+`;

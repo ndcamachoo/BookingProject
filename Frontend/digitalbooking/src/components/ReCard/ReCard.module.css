@@ -1,0 +1,244 @@
+.recommendationCards {
+  background-color: var(--background-white);
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 246px;
+  width: 49%;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.recommendationMap {
+  background-color: var(--background-white);
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 49%;
+  -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.mapHeader{
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 25px 0px 25px;
+  
+}
+
+.recommendationMap p{
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0%;
+  margin-bottom: 10px;
+  margin-right: 2%;
+  width: 55%;
+}
+
+.recommendationCards img {
+  border-radius: 5px;
+  object-fit: cover;
+  height: 100%;
+  width: 40%;
+}
+
+.recommendationCards p {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.recommendationCards button {
+  background-color: var(--principal-color);
+  border-radius: 5px;
+  border: none;
+  color: var(--background-white);
+  cursor: pointer;
+  height: 30px;
+  width: 100%;
+}
+
+.recommendationCards button:hover {
+  background-color: var(--principal-color);
+  color: var(--background-white);
+  opacity: 2;
+} 
+
+.recommendationCards button:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: scale(0.98);
+}
+
+.location {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.location h6{
+  color: var(--principal-color);
+  cursor: pointer;
+}
+
+.location p {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.location p::before {
+  color: var(--color-typo);
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+.location a {
+  color: var(--principal-color);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.reCardTitle {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.recommendationMap span{
+  display: none;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .recommendationCards {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+
+  .recommendationMap {
+    width: 100%;
+    margin-bottom: 17px;
+    position:relative;
+    height: 246px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0%;
+    margin-bottom: 15px;
+    margin-right: 0%;
+    margin-left: 2%;
+    width: 96%;
+  }
+
+  .recommendationMap{
+    height: 490px;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .recommendationMap h6{
+    position: relative;
+    font-size: 16px;
+  }
+
+  .recommendationMap span{
+    font-size: 10px;
+  }
+
+  .recommendationCards {
+    flex-direction: column;
+    justify-content: center;
+    height: 490px;
+  }
+
+  .recommendationCards img {
+    border-radius: 0px;
+    border-radius: 5px 5px 0px 0px;
+    height: 300px;
+    width: 100%;
+  }
+
+  .recommendationCards button {
+    width: 100%;
+  }
+
+  .reCardTitle {
+    margin-top: 0px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}

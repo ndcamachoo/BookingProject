@@ -1,0 +1,48 @@
+.review{
+    align-items:center ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 0px;
+    padding: 10px 0 10px 0;
+}
+
+.review h5{
+    background-color: #383B58;
+    border-radius: 6px;
+    color: var(--background-white);
+    font-size: 22px;
+    margin-bottom: 2px;
+    padding:4px 4px 4px 4px;
+    text-align: center;
+    width: 35px;
+}
+
+.reviewDetail{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 10px;
+
+}
+
+.reviewDetail h6{
+    font-size: 14px;
+}
+
+.stars{
+    align-items: flex-end;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px 0px 0 0;
+}
+
+.stars i{
+    color: var(--principal-color);
+    font-size: 10px;
+    padding-left: 3px;
+    margin:0px;
+    
+}

@@ -1,0 +1,300 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  padding: 68px 0 0 0;
+  width: 100%;
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.product p {
+  font-size: 14px;
+}
+
+/* title product */
+
+.header h5 {
+  padding-bottom: 4px;
+}
+
+.header i {
+  color: white;
+}
+
+/* location title section */
+
+.info {
+  align-items: center;
+  background-color: var(--background-color2);
+  /*background-color: coral;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90vw;
+}
+
+.info p {
+  font-size: 14px;
+  padding: 5px 0 0 18px;
+}
+
+.locDetail {
+  align-self: center;
+  display: flex;
+  flex: row;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.locDetail i {
+  color: var(--color-typo2);
+  padding-top: 1px;
+  padding-right: 5px;
+  margin:0;
+}
+
+.locationDetail {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+
+/*description section*/
+
+.description {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 0px;
+  width: 90vw;
+}
+
+.description h4{
+  align-self: flex-start;
+  font-size: 18px;
+}
+
+.description p {
+  align-self: flex-start;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  
+}
+
+/*services section*/
+
+.servicios{
+  align-self: center;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.servicios h4{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.servicios hr{
+  background-color:var(--principal-color);
+  border: none;
+  width: 100%;
+  height: 1.4px;
+  margin-bottom: 40px;
+}
+
+
+/*calendar section*/
+
+.dates{
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.dates h4{
+    font-size: 18px;
+    margin: 10px 0px 40px;
+    align-self: flex-start;
+    
+}
+
+.datesBlock{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 30px;
+    /*height: 300px;*/
+    width: 90vw;
+}
+
+.calendar{
+  display:flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+/*map section*/
+
+.map{
+  align-self: center;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 90vw;
+}
+
+.mapInfo{
+  width:100%;
+}
+
+.mapInfo h4{
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+  align-self: flex-start;
+}
+
+.mapInfo hr{
+  background-color:var(--principal-color);
+  border: none;
+  width: 100%;
+  height: 1.4px;
+  margin-bottom: 10px;
+}
+
+
+/*mobile gallery*/
+.galleryContainer{
+  visibility:hidden;
+}
+
+/*desktop gallery*/
+.galleryEventContainer{
+  height: 93vh;
+  width:100%;
+  position:fixed;
+  z-index:10;
+  padding-top: 0px;
+  background-color: rgba(56, 59, 88, 0.9);
+}
+
+
+@media (max-width: 1046px){
+
+  /*calendar section */
+
+  .dates{
+      
+    padding-bottom: 50px; 
+  }
+
+  .dates h4{
+    
+    margin: 10px 0px 35px;
+    align-self: flex-start;
+    
+  }
+
+  .calendar{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
+
+@media (max-width: 768px) {
+
+  .product {
+    min-height: 140vh;
+  }
+
+  .galleryEventContainer{
+    display:none;
+  }
+
+  /*mobile gallery*/
+  .galleryContainer{
+    visibility:visible;
+  }
+
+  .description {
+    padding: 0px 0 0px 0px;
+  }
+
+  /* calendar section */
+
+  .dates{
+    padding-bottom: 50px; 
+  }
+
+  .dates h4{
+    margin: 10px 0px 15px;     
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .product {
+    min-height: 140vh;
+    justify-content: center;
+  }
+
+  .info p {
+    display: none;
+  }
+
+  .locDetail {
+    width: 155px;
+  }
+
+  .locDetail h4 {
+    font-size: 14px;
+  }
+
+  /* calendar rules */
+
+  .dates{
+      
+    padding-bottom: 30px; 
+  }
+
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

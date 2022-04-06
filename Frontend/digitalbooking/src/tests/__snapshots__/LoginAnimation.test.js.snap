@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <LoginAnimation /> Comprobar que <Button2 /> renderiza correctamente. 1`] = `
+<div
+  className="animation"
+>
+  <img
+    alt="Digital Booking Logo"
+    src="logo.png"
+  />
+  <h6>
+    Prueba Animacion
+  </h6>
+</div>
+`;

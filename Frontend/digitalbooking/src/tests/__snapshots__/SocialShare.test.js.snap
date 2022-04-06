@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <SocialShare /> Comprobar que <SocialShare /> renderiza correctamente. 1`] = `
+<div
+  className="social"
+>
+  <p
+    onClick={[Function]}
+  >
+    X
+  </p>
+  <h4>
+    Compartí tu próximo alojamiento en las redes sociales
+  </h4>
+  <div
+    className="icons"
+  >
+    <ForwardRef(ShareButton-email)
+      className="share"
+      quote="Digital Booking"
+      url="https://frontend.dvx32y9gwvi8h.amplifyapp.com//register"
+    >
+      <Icon
+        bgStyle={Object {}}
+        borderRadius={0}
+        iconFillColor="white"
+        round={true}
+        size={29}
+      />
+    </ForwardRef(ShareButton-email)>
+    <ForwardRef(ShareButton-facebook)
+      className="share"
+      quote="Digital Booking"
+      url="https://frontend.dvx32y9gwvi8h.amplifyapp.com/register"
+    >
+      <Icon
+        bgStyle={Object {}}
+        borderRadius={0}
+        iconFillColor="white"
+        round={true}
+        size={29}
+      />
+    </ForwardRef(ShareButton-facebook)>
+    <ForwardRef(ShareButton-linkedin)
+      className="share"
+      quote="Digital Booking"
+      url="https://frontend.dvx32y9gwvi8h.amplifyapp.com/register"
+    >
+      <Icon
+        bgStyle={Object {}}
+        borderRadius={0}
+        iconFillColor="white"
+        round={true}
+        size={29}
+      />
+    </ForwardRef(ShareButton-linkedin)>
+    <ForwardRef(ShareButton-pinterest)
+      className="share"
+      quote="Digital Booking"
+      url="https://frontend.dvx32y9gwvi8h.amplifyapp.com/register"
+    >
+      <Icon
+        bgStyle={Object {}}
+        borderRadius={0}
+        iconFillColor="white"
+        round={true}
+        size={29}
+      />
+    </ForwardRef(ShareButton-pinterest)>
+    <ForwardRef(ShareButton-whatsapp)
+      className="share"
+      quote="Digital Booking"
+      url="https://frontend.dvx32y9gwvi8h.amplifyapp.com/register"
+    >
+      <Icon
+        bgStyle={Object {}}
+        borderRadius={0}
+        iconFillColor="white"
+        round={true}
+        size={29}
+      />
+    </ForwardRef(ShareButton-whatsapp)>
+  </div>
+</div>
+`;

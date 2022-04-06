@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <UserLogin /> Comprobar que <UserLogin /> renderiza correctamente. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="login"
+  >
+    <h2>
+      Iniciar sesión
+    </h2>
+    <div
+      className="item"
+    >
+      <p>
+        Correo electrónico
+      </p>
+      <input
+        className="input"
+        name="email"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="item"
+    >
+      <p>
+        Contraseña
+      </p>
+      <input
+        className="input"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <i
+        className="fas fa-eye-slash"
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+      />
+    </div>
+    <h6
+      className="errorm"
+    />
+    <button
+      className="button"
+      name="submit"
+    >
+      Ingresar
+    </button>
+    <div
+      className="create"
+    >
+      <p>
+        ¿Aun no tienes cuenta?
+      </p>
+      <Component
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/register"
+      >
+        <h5>
+          Registrate
+        </h5>
+      </Component>
+    </div>
+  </div>
+</form>
+`;

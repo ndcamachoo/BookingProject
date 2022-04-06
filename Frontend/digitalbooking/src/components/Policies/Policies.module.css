@@ -1,0 +1,118 @@
+/*rules section*/
+
+.rules {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 20px 0px 20px 0px;
+  width: 90vw;
+}
+
+.rules h4 {
+  color: var(--color-typo);
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.rules hr {
+  background-color: var(--principal-color);
+  border: none;
+  width: 100%;
+  height: 1.4px;
+  margin-bottom: 40px;
+}
+
+.rules ul {
+  padding: 0px;
+}
+
+.rules li {
+  list-style-type: none;
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 18px;
+  width: 95%;
+}
+
+.rulesInfo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.houseRules {
+  width: 25%;
+}
+
+.houseRules h4 {
+  color: var(--color-typo);
+  margin-bottom: 30px;
+}
+
+.healthSecurity {
+  width: 25%;
+}
+
+.healthSecurity h4 {
+  color: var(--color-typo);
+  margin-bottom: 30px;
+}
+
+.cancellation {
+  width: 25%;
+}
+
+.cancellation h4 {
+  color: var(--color-typo);
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  /*rules section*/
+
+  .rulesInfo {
+    flex-wrap: wrap;
+  }
+
+  .houseRules {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  .healthSecurity {
+    width: 50%;
+    margin-right: 0%;
+    margin-bottom: 40px;
+  }
+
+  .cancellation {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .rulesInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .houseRules {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .healthSecurity {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .cancellation {
+    width: 100%;
+  }
+}

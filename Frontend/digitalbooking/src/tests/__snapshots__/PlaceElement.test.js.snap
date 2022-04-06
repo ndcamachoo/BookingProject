@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <PlaceElement /> Comprobar que <PlaceElement /> renderiza correctamente. 1`] = `
+<li
+  className="elemento"
+>
+  <i
+    className="fas fa-map-marker-alt"
+  />
+  <div
+    className="locationtext"
+  >
+    <h5>
+      B
+      u
+      e
+      n
+      o
+      s
+       
+      A
+      i
+      r
+      e
+      s
+    </h5>
+    <h6>
+       Buenos Aires
+      ,
+       Argentina
+    </h6>
+    <hr />
+  </div>
+</li>
+`;

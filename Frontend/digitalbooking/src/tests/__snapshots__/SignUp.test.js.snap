@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <SignUp /> Comprobar que <SignUp /> renderiza correctamente. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="signup"
+  >
+    <h2>
+      Crear cuenta
+    </h2>
+    <section
+      className="fullname"
+    >
+      <div
+        className="item"
+      >
+        <p>
+          Nombre
+        </p>
+        <input
+          className="input"
+          name="nombre"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="item"
+      >
+        <p>
+          Apellido
+        </p>
+        <input
+          className="input"
+          name="apellido"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </section>
+    <div
+      className="item"
+    >
+      <p>
+        Correo electrónico
+      </p>
+      <input
+        className="input"
+        name="email"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="item"
+    >
+      <p>
+        Contraseña
+      </p>
+      <input
+        className="input"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <i
+        className="fas fa-eye-slash"
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+      />
+    </div>
+    <div
+      className="item"
+    >
+      <p>
+        Confirmar contraseña
+      </p>
+      <input
+        className="input"
+        name="repassword"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <i
+        className="fas fa-eye-slash"
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+      />
+    </div>
+    <h6
+      className="errorm"
+    />
+    <button
+      className="button"
+      name="submit"
+    >
+      Registrate
+    </button>
+    <div
+      className="create"
+    >
+      <p>
+        ¿Ya tienes cuenta?
+      </p>
+      <Link
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/login"
+      >
+        <h5>
+          Inicia sesión
+        </h5>
+      </Link>
+    </div>
+  </div>
+</form>
+`;

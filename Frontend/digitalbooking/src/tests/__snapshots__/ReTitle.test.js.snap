@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <ReTitle /> Comprobar que ReTitle renderiza correctamente. 1`] = `
+<div
+  className="titles"
+>
+  <p>
+    Hotel
+  </p>
+  <h5>
+    Hotel Hermitage
+  </h5>
+</div>
+`;

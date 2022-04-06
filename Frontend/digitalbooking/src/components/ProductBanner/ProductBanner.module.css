@@ -1,0 +1,35 @@
+.header {
+    background-color: var(--color-typo2);
+    color: var(--background-white);
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headerContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width:90vw;
+  }
+
+  .titleContainer{
+    width: 90%;
+  }
+  
+  .header h5 {
+    padding-bottom: 4px;
+    width:90%
+  }
+
+  .header h3{
+    width:100%;
+  }
+  
+  .header i {
+    color: white; 
+  }

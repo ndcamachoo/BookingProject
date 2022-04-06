@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <CategoryContainer /> Comprobar que <CategoryContainer /> renderiza correctamente. 1`] = `
+<div
+  className="searchCategory"
+>
+  <section
+    className="searchByType"
+  >
+    <h4>
+      Buscar por tipo de alojamiento
+    </h4>
+    <p>
+      Cargando Categorías...
+    </p>
+    <div
+      className="categoryCards"
+    />
+  </section>
+</div>
+`;

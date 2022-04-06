@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Maps /> Comprobar que Maps renderiza correctamente. 1`] = `
+<LoadScript
+  googleMapsApiKey="AIzaSyCCK3XtE2nkcDKC5P8jaUV6Q-A8-nfXjFI"
+  id="script-loader"
+  version="weekly"
+>
+  <GoogleMap
+    center={
+      Object {
+        "lat": 58.5558,
+        "lng": 60.5487,
+      }
+    }
+    mapContainerStyle={
+      Object {
+        "height": "80vh",
+        "margin": "3%",
+        "position": "relative",
+        "width": "94%",
+      }
+    }
+    onClick={[Function]}
+    zoom={14}
+  >
+    <Marker
+      key="marker_1"
+      onClick={[Function]}
+      position={
+        Object {
+          "lat": 53.02,
+          "lng": -45.02,
+        }
+      }
+    />
+  </GoogleMap>
+</LoadScript>
+`;

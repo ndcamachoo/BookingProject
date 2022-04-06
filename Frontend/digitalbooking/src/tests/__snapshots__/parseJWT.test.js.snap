@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comprobar funcion parseJWT Verificar que la funcion se ejecuta correctamente 1`] = `
+Object {
+  "authorities": Array [
+    "USER",
+  ],
+  "exp": 1636640676,
+  "iat": 1636554276,
+  "jti": "dhJWT",
+  "name": "Agustina Pasqualis",
+  "sub": "agus@dh.com",
+}
+`;

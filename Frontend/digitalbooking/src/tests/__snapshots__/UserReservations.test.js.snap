@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <UserReservations /> Comprobar que <UserReservations /> renderiza correctamente. 1`] = `
+<div
+  className="userReservations"
+>
+  <h5>
+    Cargando reservas
+  </h5>
+  <h5>
+    Reservas de undefined
+  </h5>
+</div>
+`;

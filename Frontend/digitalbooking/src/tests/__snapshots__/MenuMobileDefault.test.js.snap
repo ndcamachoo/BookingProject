@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <MenuMobile/> Comprobar que <MenuMobile/> renderiza correctamente. 1`] = `
+<div>
+  <section
+    className="header"
+  >
+    <button
+      className="logout"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <h4>
+      MENÚ
+    </h4>
+  </section>
+  <section
+    className="buttons"
+  >
+    <Component
+      className="button"
+      to="/register"
+    >
+      <h5>
+        Crear cuenta
+      </h5>
+    </Component>
+    <Component
+      className="button"
+      to="/login"
+    >
+      <h5>
+        Iniciar sesión
+      </h5>
+    </Component>
+  </section>
+</div>
+`;

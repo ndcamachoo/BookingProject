@@ -1,0 +1,153 @@
+
+.signup{
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.button {
+  background-color: var(--principal-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--background-white);
+  height: 30px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  width: 225px;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: scale(0.98);
+}
+
+.create {
+  display: flex;
+  flex-direction: row;
+}
+
+.create h5 {
+  color: var(--principal-color);
+  font-size: 12px;
+  padding: 6px 0 0 4px;
+  text-decoration: none;
+}
+
+.fullname {
+  display: flex;
+  flex-direction: row;
+}
+
+.signup {
+  align-items: center;
+  background-color: var(--background-color2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 93vh;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.signup h2 {
+  color: var(--principal-color);
+  padding-bottom: 10px;
+}
+
+.item {
+  padding-top: 0px;
+}
+
+/*.item input {
+  border: var(--background-white);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(243, 241, 237, 0.5);
+  box-shadow: 0px 3px 5px 0px rgba(97, 97, 96, 0.5);
+}*/
+
+.item input {
+  border-radius: 5px;
+  border: none;
+  border: var(--background-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  height: 25px;
+  margin-left: 5px;
+  padding: 15px;
+  width: 385px;
+}
+
+.error {
+  color: red;
+  padding: 4px 0 0 8px;
+}
+
+.error h6 {
+  color: red;
+  padding: 4px 0 0 8px;
+}
+
+
+.signup section input {
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  width: 190px;
+}
+
+i {
+  color: gray;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.signup p {
+  font-size: 13px;
+  padding: 5px 0px 5px 8px;
+}
+
+.errorm{
+  color:red;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+
+
+@media (max-width: 480px) {
+
+
+  .fullname {
+    flex-direction: column;
+  }
+
+  .signup input {
+    width: 300px;
+  }
+
+  .signup section input {
+    width: 300px;
+  }
+
+  .button {
+    width: 300px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

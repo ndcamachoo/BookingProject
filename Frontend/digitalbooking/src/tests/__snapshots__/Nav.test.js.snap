@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente  Nav /> Comprobar que  Nav /> renderiza correctamente. 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "setVisibility": [Function],
+        "visibility": false,
+      }
+    }
+  >
+    <MenuMobile />
+  </ContextProvider>
+  <nav
+    className="color1"
+  >
+    <img
+      alt="Logo"
+      onClick={[Function]}
+      src="logo.png"
+    />
+    <section
+      className="searchInput"
+    >
+      <i
+        className="fas fa-search"
+      />
+      <input
+        className="searchNav"
+        placeholder="Encontrá tu lugar"
+        type="text"
+      />
+    </section>
+    <NavButtons />
+    <img
+      alt="ícono menú"
+      className="hamburguesita"
+      onClick={[Function]}
+      src="hamburguer.svg"
+    />
+  </nav>
+</Fragment>
+`;

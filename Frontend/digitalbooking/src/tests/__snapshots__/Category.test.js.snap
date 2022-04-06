@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Category /> Comprobar que <Category /> renderiza correctamente. 1`] = `
+<div
+  className="cat"
+>
+  <section
+    className="title"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h4
+        className="category"
+      />
+      <i
+        className="fas fa-arrow-left"
+        onClick={[Function]}
+      />
+    </div>
+  </section>
+  <p>
+    Cargando Recomendaciones...
+  </p>
+  <ProductsByCategory />
+</div>
+`;

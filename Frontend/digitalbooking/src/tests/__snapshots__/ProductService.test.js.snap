@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <ProductService /> Comprobar que <ProductService /> renderiza correctamente. 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="services"
+    key="0"
+  >
+    <Service2Icon
+      color={
+        Object {
+          "color": "var(--principal-color)",
+        }
+      }
+      icon="Wifi"
+      key="0"
+    />
+    <p>
+      Wifi
+    </p>
+  </div>
+  <div
+    className="services"
+    key="1"
+  >
+    <Service2Icon
+      color={
+        Object {
+          "color": "var(--principal-color)",
+        }
+      }
+      icon="kitchen"
+      key="1"
+    />
+    <p>
+      Kitchen
+    </p>
+  </div>
+  <div
+    className="services"
+    key="2"
+  >
+    <Service2Icon
+      color={
+        Object {
+          "color": "var(--principal-color)",
+        }
+      }
+      icon=" parking"
+      key="2"
+    />
+    <p>
+       parking
+    </p>
+  </div>
+  <div
+    className="services"
+    key="3"
+  >
+    <Service2Icon
+      color={
+        Object {
+          "color": "var(--principal-color)",
+        }
+      }
+      icon="airconditioning"
+      key="3"
+    />
+    <p>
+      Airconditioning
+    </p>
+  </div>
+</div>
+`;

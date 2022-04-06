@@ -1,0 +1,152 @@
+nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px 40px 10px 40px;
+  position: fixed;
+  transition: 0.5s;
+  width: 100%;
+  z-index: 2;
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.color1 {
+  background-color: var(--background-white);
+}
+
+.color2 {
+  background-color: var(--background-white);
+  height: 80px;
+  transition: 0.5s;
+}
+
+.hide {
+  display: none;
+}
+
+.signedUp {
+  text-decoration: none;
+}
+
+nav button {
+  background-color: var(--background-white);
+  border-radius: 5px;
+  border: 1.4px solid var(--principal-color);
+  color: var(--principal-color);
+  cursor:pointer;
+  font-weight: 700;
+  margin-left: 50px;
+  padding: 6px 30px 5px 30px;
+}
+
+nav img {
+  height: 45px;
+  margin-left: 35px;
+  cursor:pointer;
+}
+
+nav input {
+  background-color: var(--background-color);
+  border-radius: 5px;
+  border: 0px solid var(--principal-color);
+  font-family: "Roboto", "FontAwesome", sans-serif;
+  list-style: none;
+}
+
+nav i {
+  background-color: var(--principal-color);
+  border-radius: 20px;
+  color: var(--background-white);
+  font-size: 10px;
+  padding: 8px;
+}
+
+.searchNav {
+  background-color: var(--background-white);
+  border-radius: 20px;
+  border: 0.5px solid var(--background-color);
+  box-shadow: 0px 0px 0px 1px rgba(234, 234, 234, 0.75);
+  padding: 6px 5px 6px 10px;
+}
+
+.searchInput {
+  display: none;
+}
+
+.scrolled {
+  display: block;
+  padding-left: 40px;
+}
+
+.signedUptrue {
+  display: none;
+}
+
+.signedOut {
+  display: block;
+}
+
+.hamburguesita {
+  display:none;
+}
+
+.visible{
+  display: block;
+}
+
+@media (max-width: 768px) {
+  nav img {
+    height: 35px;
+    margin-left: 4%;
+  }
+
+  .searchNav {
+    width: 180px;
+  }
+}
+
+@media (max-width: 705px) {
+  
+  .searchNav {
+    display:none;
+  }
+
+  .scrolled{
+    display:none
+  }
+}
+
+@media (max-width: 480px) {
+
+  nav img {
+    height: 30px;
+    margin-left: 0%;
+  }
+
+  .hamburguesita{
+    display: block;
+    height: 23px;
+    width: 23px;
+  }
+}
+
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

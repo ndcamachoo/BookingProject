@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Footer /> Comprobar que <Footer /> renderiza correctamente. 1`] = `
+<Fragment>
+  <footer
+    className="footer"
+  >
+    <h6>
+      ©2021 Digital Booking
+    </h6>
+    <div
+      className="social"
+    >
+      <i
+        className="fab fa-facebook"
+      />
+      <i
+        className="fab fa-linkedin-in"
+      />
+      <i
+        className="fab fa-twitter"
+      />
+      <i
+        className="fab fa-instagram"
+      />
+    </div>
+  </footer>
+</Fragment>
+`;

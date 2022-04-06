@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <NotFound /> Comprobar que <NotFound /> renderiza correctamente. 1`] = `
+<div
+  className="notFound"
+>
+  <section
+    className="animation"
+  >
+    <NotFoundAnimation
+      className="anim"
+    />
+  </section>
+  <section
+    className="info"
+  >
+    <h2>
+      Sin resultados
+    </h2>
+    <div
+      className="text"
+    >
+      <p>
+        tus VACA...ciones han sido abducidas
+      </p>
+      <p>
+        No te desanimes, tenemos miles de locaciones para tus próximas vacaciones.
+      </p>
+    </div>
+    <Button
+      text="Volver al home"
+    />
+  </section>
+</div>
+`;

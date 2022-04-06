@@ -1,0 +1,104 @@
+.hide{
+  display: none !important;
+  visibility:hidden;
+
+}
+
+.signedBar{
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.signedBar i{
+  background-color: transparent;
+  color: var(--color-typo);
+  font-size: 26px;
+  padding: 0px 3px 3px 0px;
+}
+
+.avatar {
+  background-color: var(--color-typo);
+  border-radius: 20px;
+  color: var(--background-white);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.names {
+  color: var(--principal-color);
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.logout {
+  -webkit-text-stroke: 1px;
+  bottom: 8px;
+  color: var(--color-typo);
+  cursor:pointer;
+  font-weight: bold;
+  position: relative;
+  right: 35px;
+  text-decoration: none;
+  transform: scale(0.97);
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .names {
+    margin-right: 10px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+
+  .logout {
+    bottom: 8px;
+    color: var(--color-typo);
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    display: none;
+  }
+
+  .adminLink{
+    display: none;
+  }
+
+  .signedBar i{
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

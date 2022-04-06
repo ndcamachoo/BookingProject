@@ -1,0 +1,36 @@
+.animContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;  
+}
+
+.anim{
+    position: relative;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+@media (max-width: 768px){
+
+    .animContainer{
+        margin-top: 30px;
+    }
+
+    .anim{
+        width: 35%;
+    }   
+
+}
+
+@media (max-width: 480px){
+
+    .animContainer{
+        margin-top: 50px;
+    }
+
+    .anim{
+        width: 35%;
+    }   
+
+}

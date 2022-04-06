@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Forbidden /> Comprobar que <Forbidden /> renderiza correctamente. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="forbidden.png"
+    />
+    <h3
+      className="title"
+    >
+      Login necesario
+    </h3>
+    <h5
+      className="info"
+    >
+      Para acceder a esta página se requiere iniciar sesión.
+    </h5>
+    <Link
+      to="/login"
+    >
+      <button
+        className="button"
+      >
+        Iniciar sesión
+      </button>
+    </Link>
+  </section>
+</div>
+`;

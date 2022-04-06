@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente  Recommendations /> Comprobar que  Recommendations /> renderiza correctamente. 1`] = `
+<div>
+  <section
+    className="recommendation"
+  >
+    <div
+      className="recommendationContainer"
+    >
+      <h4
+        className="recommendationtitle"
+      >
+        Recomendaciones
+      </h4>
+      <div
+        className="recommendationCards"
+      >
+        <p>
+          Cargando Recomendaciones...
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;

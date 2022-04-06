@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <ProductBanner /> Comprobar que <ProductBanner /> renderiza correctamente. 1`] = `
+<section
+  className="header"
+>
+  <div
+    className="headerContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h5>
+        Hotel
+      </h5>
+      <h3>
+        subtitulo
+      </h3>
+    </div>
+    <i
+      className="fas fa-arrow-left"
+      onClick={[Function]}
+    />
+  </div>
+</section>
+`;

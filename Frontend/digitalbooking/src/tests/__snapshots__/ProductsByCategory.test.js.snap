@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente  ProductsByCategory /> Comprobar que  ProductsByCategory /> renderiza correctamente. 1`] = `
+<div
+  className="recommendationContainer"
+>
+  <section
+    className="recommendation"
+  >
+    <h4
+      className="recommendationtitle"
+    >
+      Recomendaciones de 
+    </h4>
+    <div
+      className="recommendationCards"
+    >
+      <p>
+        Cargando Locaciones...
+      </p>
+    </div>
+  </section>
+</div>
+`;

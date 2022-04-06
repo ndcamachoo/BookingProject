@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <UserDesk /> Comprobar que <UserDesk /> renderiza correctamente. 1`] = `
+<div
+  className="userDesk"
+>
+  <ProductBanner
+    title="Perfil de"
+  />
+  <div
+    className="menu"
+  >
+    <button
+      onClick={[Function]}
+    >
+       
+      <i
+        className="fas fa-calendar-check"
+      />
+       Mis reservas
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-heart"
+      />
+      Favoritos
+    </button>
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "5px",
+          "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.15)",
+          "color": "black",
+          "margin": "3px 0px 4px 0px",
+          "padding": "10px 0px 10px 0px",
+          "textAlign": "center",
+          "textDecoration": "none",
+          "width": "28%",
+        }
+      }
+    >
+      <h5>
+         
+        <i
+          className="fas fa-sign-out-alt"
+        />
+         Cerrar sesión
+      </h5>
+    </button>
+  </div>
+  <div
+    className="desk"
+  />
+</div>
+`;

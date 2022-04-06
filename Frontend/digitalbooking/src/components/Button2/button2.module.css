@@ -1,0 +1,33 @@
+.button2 {
+  align-items: center;
+  background-color: var(--principal-color);
+  border: 1.4px solid var(--background-white);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  height: 32px;
+  margin-left: 0px;
+  padding: 6px 40px 5px 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  width: 100%;
+  z-index: 0;
+}
+
+.button2:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: scale(0.97);
+  
+}
+
+@media (max-width: 768px){
+
+  .button2{
+    padding: 6px 30px 5px 30px;
+  }
+
+}

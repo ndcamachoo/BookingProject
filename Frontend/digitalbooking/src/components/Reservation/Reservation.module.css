@@ -1,0 +1,686 @@
+.reservation {
+  background-color: var(--background-color2);
+  display: flex;
+  flex-direction: column;
+  padding: 68px 0 0 0;
+  width: 100%;
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.resTitle {
+  color: var(--color-typo);
+  margin: 30px 0px 15px 5vw;
+  font-size: 18px;
+}
+
+.resContainer {
+  width: 90vw;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-bottom: 40px;
+}
+
+/*form section*/
+
+.formContainer {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.form {
+  background-color: var(--background-white);
+  border-radius: 5px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.item p {
+  color: var(--color-typo);
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+.item input {
+  background-color: var(--background-color2);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  height: 25px;
+  padding: 15px;
+  width: 100%;
+}
+ /*error fields*/
+
+.item .error{
+  color:red;
+  z-index: 15;
+  align-self: flex-end;
+  padding: 30px 10px 0px 0px;
+  position: absolute;
+}
+
+.date .error{
+  color:red;
+  position:absolute;
+  align-self: flex-end;
+  padding: 270px 40px 0px 0px;
+}
+
+/*product card section*/
+
+.summaryContainer {
+  grid-area: 1 / 3 / 5 / 4;
+  background-color: cornsilk;
+  background-color: var(--background-white);
+  border-radius: 5px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 15px 0px;
+}
+
+.summaryContainer h4 {
+  align-self: center;
+  color: var(--color-typo);
+  font-size: 18px;
+  margin: 20px 0 20px 0px;
+  width: 90%;
+}
+
+.summaryContainer img {
+  height: 44%;
+  width: 100%;
+}
+
+.detailsInfo {
+  align-self: center;
+  width: 90%;
+}
+
+.summaryInfo {
+  align-self: center;
+  margin: 30px 0px 0px 0px;
+  width: 100%;
+}
+
+.summaryInfo h5 {
+  color: var(--color-typo);
+  font-size: 18px;
+  overflow: hidden;
+  padding-top: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  margin: 3px 0px 0px 0px;
+}
+
+.summaryInfo p {
+  color: var(--color-typo);
+  font-size: 11px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 0px 0px 0px;
+}
+
+.stars i {
+  color: var(--principal-color);
+  font-size: 10px;
+  padding-right: 3px;
+  margin: 0px;
+}
+
+.locationDetail {
+  align-self: center;
+  display: flex;
+  flex: row;
+  padding-left: 0px;
+  width: 100%;
+  margin: 20px 0 15px 0px;
+}
+
+.summaryInfo .locationDetail h5 {
+  font-size: 12px;
+}
+
+.locationDetail i {
+  color: var(--color-typo2);
+  padding-right: 5px;
+  margin: 0;
+}
+
+.prices{
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0 25px 0px;
+}
+
+.price{
+  font-size: 14px;
+  font-weight: 600;
+  width:50%;
+}
+
+.totalPrice{
+  color: var(--color-typo2);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  width:50%;
+}
+
+.summaryContainer hr {
+  width: 100%;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.checkDates {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin: 25px 0px;
+}
+
+.checkDates p {
+  color: var(--color-typo);
+  font-size: 14px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.checkDates input[type="text"] {
+  text-align: right;
+  font-weight: 600;
+  border: none;
+  width: 50%;
+  background-color: transparent;
+}
+
+.confirmationButton {
+  align-self: center;
+  background-color: var(--principal-color);
+  border-radius: 5px;
+  border: none;
+  color: var(--background-white);
+  cursor: pointer;
+  font-weight: 700;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*datePicker section*/
+
+.date {
+  grid-area: 2 / 1 / 4 / 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  padding: 10px 0px 0px 0px;
+}
+
+.date h4 {
+  align-self: flex-start;
+  color: var(--color-typo);
+  margin: 0px 0px 5px 0px;
+  font-size: 18px;
+  height: 9%;
+}
+
+.pickerContainer {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  height: 91%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*time section*/
+
+.timePicker {
+  grid-area: 4 / 1 / 5 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.timePicker h4 {
+  color: var(--color-typo);
+  margin: 0px 0px 15px 0px;
+  font-size: 18px;
+}
+
+.time {
+  background-color: var(--background-white);
+  border-radius: 5px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time h5 {
+  color: var(--color-typo);
+  margin: 0px 0px 10px 3%;
+}
+
+.time h6 {
+  color: var(--color-typo);
+  margin: 0px 0px 10px 3%;
+}
+
+.hours {
+  background-color: var(--background-color2);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  display: block;
+  height: 35px;
+  margin: 0px 0px 0px 3%;
+  padding: 0px 5px;
+  width: 42%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: grey;
+}
+
+.hours option {
+  color: var(--color-typo2);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.time .error{
+  align-self: flex-end;
+  color:red;
+  position:absolute;
+  padding: 60px 40px 0px 0px;
+}
+
+.errorm {
+  color: red;
+  padding: 0px 0 10px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .resContainer {
+    width: 90vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  /*form section*/
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .form {
+    padding: 25px 25px 15px 25px;
+    margin-bottom: 10px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .item p {
+    margin-bottom: 6px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  /*product card section*/
+
+  .summaryContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .summaryContainer h4 {
+    align-self: flex-start;
+    margin: 20px 0 15px 3%;
+    width: 100%;
+  }
+
+  .summaryContainer img {
+    height: 300px;
+    width: 46%;
+    border-radius: 10px;
+    margin-left: 3%;
+  }
+
+  .detailsInfo {
+    margin: 0px 0px 0px 2%;
+    width: 46%;
+  }
+
+  .summaryInfo {
+    align-self: flex-start;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+
+  .summaryInfo h5 {
+    padding-top: 0px;
+    width: 100%;
+    margin: 2px 0px 0px 0px;
+  }
+
+  .summaryInfo p {
+    color: var(--color-typo);
+    font-size: 11px;
+  }
+
+  .locationDetail {
+    margin: 12px 0 15px 0px;
+  }
+
+  .prices{
+    margin: 20px 0 20px 0px;
+  }
+  
+  .price{
+    font-size: 12px;
+    width:40%;
+  }
+  
+  .totalPrice{
+    font-size: 12px;
+    width:60%;
+  }
+
+  .summaryContainer hr {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 0px;
+  }
+
+  .checkDates {
+    margin: 18px 0px;
+  }
+
+  .confirmationButton {
+    margin: 0px 0px 5px 0px;
+  }
+
+  /*datePicker section*/
+
+  .date {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding: 0px 0px;
+  }
+
+  .date h4 {
+    margin: 0px 0px 20px 0px;
+    font-size: 18px;
+    height: 9%;
+  }
+
+  .pickerContainer {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    height: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*time section*/
+
+  .timePicker h4 {
+    color: var(--color-typo);
+    margin: 0px 0px 20px 0px;
+    font-size: 18px;
+  }
+
+  .time {
+    height: 0%;
+    margin-bottom: 20px;
+  }
+
+  .time h5 {
+    margin: 15px 0px 10px 3%;
+  }
+
+  .hours {
+    margin: 0px 0px 20px 3%;
+    width: 50%;
+  }
+
+  /*error fields*/
+
+  .date .error{
+    align-self: flex-end;
+    padding: 260px 40px 0px 0px;
+  }
+
+  .errorm {
+    padding: 0px 0 6px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .resContainer {
+    width: 90vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  /*form section*/
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .form {
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 0px 15px 0px;
+    margin-bottom: 10px;
+  }
+
+  .item {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin-bottom: 20px;
+  }
+
+  .item p {
+    margin-bottom: 6px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  /*product card section*/
+
+  .summaryContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .summaryContainer h4 {
+    align-self: flex-start;
+    margin: 20px 0 15px 3%;
+    width: 100%;
+  }
+
+  .summaryContainer img {
+    height: 40%;
+    width: 100%;
+    border-radius: 0px;
+    margin-left: 0%;
+  }
+
+  .detailsInfo {
+    align-self: flex-start;
+    margin: 10px 0px 0px 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .summaryInfo {
+    align-self: center;
+    margin: 0px 0px 0px 0px;
+    width: 92%;
+  }
+
+  .summaryInfo h5 {
+    padding-top: 0px;
+    width: 100%;
+    margin: 2px 0px 0px 0px;
+  }
+
+  .summaryInfo p {
+    color: var(--color-typo);
+    font-size: 11px;
+  }
+
+  .locationDetail {
+    align-self: center;
+    margin: 15px 0 20px 0px;
+    width: 92%;
+  }
+
+  .summaryContainer hr {
+    align-self: center;
+    width: 92%;
+    margin-bottom: 0px;
+  }
+
+  .prices{
+    align-self: center;
+    margin: 20px 0 20px 0px;
+    width:92%;
+  }
+
+  .checkDates {
+    align-self: center;
+    margin: 22px 0px;
+    width: 92%;
+  }
+
+  .confirmationButton {
+    align-self: center;
+    margin: 5px 0px 10px 0px;
+    width: 92%;
+  }
+
+  .errorm {
+    align-self: center;
+    padding: 0px 0 5px 0;
+    width: 92%;
+  }
+
+  /*datePicker section*/
+
+  .date h4 {
+    height: 0%;
+  }
+
+  .pickerContainer {
+    height: 100%;
+  }
+
+  /*time section*/
+
+  .time {
+    height: 0%;
+    margin-bottom: 20px;
+  }
+
+  .time h5 {
+    align-self: center;
+    margin: 20px 0px 15px 0%;
+    width: 92%;
+  }
+
+  .time h6 {
+    align-self: center;
+    font-size: 12px;
+    margin: 0px 0px 10px 0%;
+    width: 92%;
+  }
+
+  .hours {
+    align-self: center;
+    margin: 0px 0px 20px 0%;
+    padding: 0px 3px;
+    width: 92%;
+  }
+
+  /*error fields*/
+  .time .error{
+    align-self: flex-end;
+    text-align: right;
+    color:red;
+    position:absolute;
+    padding: 10px 40px 0px 0px;
+  }
+
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <SignedUpMenuMobile/> Comprobar que <SignedUpMenuMobile/> renderiza correctamente. 1`] = `<SignedUpMenuMobile />`;

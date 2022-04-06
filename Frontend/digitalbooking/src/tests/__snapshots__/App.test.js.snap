@@ -1,0 +1,956 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <App /> Comprobar que <App /> renderiza correctamente. 1`] = `
+<div
+  className="App"
+>
+  Array [
+    <div
+      className="menuhide"
+    >
+      <div>
+        <section
+          className="header"
+        >
+          <button
+            className="logout"
+            onClick={[Function]}
+          >
+            X
+          </button>
+          <h4>
+            MENÚ
+          </h4>
+        </section>
+        <section
+          className="buttons"
+        >
+          <a
+            className="button"
+            href="/register"
+            onClick={[Function]}
+          >
+            <h5>
+              Crear cuenta
+            </h5>
+          </a>
+          <a
+            className="button"
+            href="/login"
+            onClick={[Function]}
+          >
+            <h5>
+              Iniciar sesión
+            </h5>
+          </a>
+        </section>
+      </div>
+      <div
+        className="social"
+      >
+        <section
+          className="header"
+        />
+        <div
+          className="socialbar"
+        >
+          <i
+            className="fab fa-facebook"
+          />
+          <i
+            className="fab fa-linkedin-in"
+          />
+          <i
+            className="fab fa-twitter"
+          />
+          <i
+            className="fab fa-instagram"
+          />
+        </div>
+      </div>
+    </div>,
+    <nav
+      className="color1"
+    >
+      <img
+        alt="Logo"
+        onClick={[Function]}
+        src="logo.png"
+      />
+      <section
+        className="searchInput"
+      >
+        <i
+          className="fas fa-search"
+        />
+        <input
+          className="searchNav"
+          placeholder="Encontrá tu lugar"
+          type="text"
+        />
+      </section>
+      <div
+        className="registerButtons"
+      >
+        <a
+          href="/register"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+           
+          <button
+            className="button"
+          >
+            Crear cuenta
+          </button>
+        </a>
+        <a
+          href="/login"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+           
+          <button
+            className="button"
+          >
+            Iniciar sesion
+          </button>
+        </a>
+      </div>
+      <img
+        alt="ícono menú"
+        className="hamburguesita"
+        onClick={[Function]}
+        src="hamburguer.svg"
+      />
+    </nav>,
+  ]
+  <main
+    className="main"
+  >
+    <div
+      className="search"
+    >
+      <p>
+        Busca ofertas en hoteles, casas y mucho más
+      </p>
+      <section>
+        <div
+          className="container"
+        >
+          <input
+            className="input"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="¿A dónde vamos?"
+            type="text"
+            value=""
+          />
+          <div
+            className="containerLocations"
+          >
+            <ul
+              className="locaciones"
+            />
+          </div>
+        </div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="input datapicker"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Check-in/ Check-out"
+              readOnly={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <a
+          href="/product"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+           
+          <button
+            className="button2"
+          >
+            Buscar
+          </button>
+        </a>
+      </section>
+    </div>
+    <div
+      className="searchCategory"
+    >
+      <section
+        className="searchByType"
+      >
+        <h4>
+          Buscar por tipo de alojamiento
+        </h4>
+        <p>
+          Cargando Categorías...
+        </p>
+        <div
+          className="categoryCards"
+        />
+      </section>
+    </div>
+    <div>
+      <section
+        className="recommendation"
+      >
+        <div
+          className="recommendationContainer"
+        >
+          <h4
+            className="recommendationtitle"
+          >
+            Recomendaciones
+          </h4>
+          <div
+            className="recommendationCards"
+          >
+            <p>
+              Cargando Recomendaciones...
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer
+    className="footer"
+  >
+    <h6>
+      ©2021 Digital Booking
+    </h6>
+    <div
+      className="social"
+    >
+      <i
+        className="fab fa-facebook"
+      />
+      <i
+        className="fab fa-linkedin-in"
+      />
+      <i
+        className="fab fa-twitter"
+      />
+      <i
+        className="fab fa-instagram"
+      />
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que aparezca la barra de búsqueda al hacer scroll 1`] = `null`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /administration renderiza el componente Forbidden. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="forbidden.png"
+    />
+    <h3
+      className="title"
+    >
+      Login necesario
+    </h3>
+    <h5
+      className="info"
+    >
+      Para acceder a esta página se requiere iniciar sesión.
+    </h5>
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+      >
+        Iniciar sesión
+      </button>
+    </a>
+  </section>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /category/1 renderiza el componente Category. 1`] = `
+<div
+  className="cat"
+>
+  <section
+    className="title"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h4
+        className="category"
+      />
+      <i
+        className="fas fa-arrow-left"
+        onClick={[Function]}
+      />
+    </div>
+  </section>
+  <p>
+    Cargando Recomendaciones...
+  </p>
+  <div
+    className="recommendationContainer"
+  >
+    <section
+      className="recommendation"
+    >
+      <h4
+        className="recommendationtitle"
+      >
+        Recomendaciones de 
+      </h4>
+      <div
+        className="recommendationCards"
+      >
+        <p>
+          Cargando Locaciones...
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /login renderiza el componente UserLogin. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="login"
+  >
+    <h2>
+      Iniciar sesión
+    </h2>
+    <div
+      className="item"
+    >
+      <p>
+        Correo electrónico
+      </p>
+      <input
+        className="input"
+        name="email"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="item"
+    >
+      <p>
+        Contraseña
+      </p>
+      <input
+        className="input"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <i
+        className="fas fa-eye-slash"
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+      />
+    </div>
+    <h6
+      className="errorm"
+    />
+    <button
+      className="button"
+      name="submit"
+    >
+      Ingresar
+    </button>
+    <div
+      className="create"
+    >
+      <p>
+        ¿Aun no tienes cuenta?
+      </p>
+      <a
+        href="/register"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <h5>
+          Registrate
+        </h5>
+      </a>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /logout renderiza el componente Main. 1`] = `
+<div
+  className="App"
+>
+  Array [
+    <div
+      className="menuhide"
+    >
+      <div>
+        <section
+          className="header"
+        >
+          <button
+            className="logout"
+            onClick={[Function]}
+          >
+            X
+          </button>
+          <h4>
+            MENÚ
+          </h4>
+        </section>
+        <section
+          className="buttons"
+        >
+          <a
+            className="button"
+            href="/register"
+            onClick={[Function]}
+          >
+            <h5>
+              Crear cuenta
+            </h5>
+          </a>
+          <a
+            className="button"
+            href="/login"
+            onClick={[Function]}
+          >
+            <h5>
+              Iniciar sesión
+            </h5>
+          </a>
+        </section>
+      </div>
+      <div
+        className="social"
+      >
+        <section
+          className="header"
+        />
+        <div
+          className="socialbar"
+        >
+          <i
+            className="fab fa-facebook"
+          />
+          <i
+            className="fab fa-linkedin-in"
+          />
+          <i
+            className="fab fa-twitter"
+          />
+          <i
+            className="fab fa-instagram"
+          />
+        </div>
+      </div>
+    </div>,
+    <nav
+      className="color1"
+    >
+      <img
+        alt="Logo"
+        onClick={[Function]}
+        src="logo.png"
+      />
+      <section
+        className="searchInput"
+      >
+        <i
+          className="fas fa-search"
+        />
+        <input
+          className="searchNav"
+          placeholder="Encontrá tu lugar"
+          type="text"
+        />
+      </section>
+      <div
+        className="registerButtons"
+      >
+        <a
+          href="/register"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+           
+          <button
+            className="button"
+          >
+            Crear cuenta
+          </button>
+        </a>
+        <a
+          href="/login"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+           
+          <button
+            className="button"
+          >
+            Iniciar sesion
+          </button>
+        </a>
+      </div>
+      <img
+        alt="ícono menú"
+        className="hamburguesita"
+        onClick={[Function]}
+        src="hamburguer.svg"
+      />
+    </nav>,
+  ]
+  <main
+    className="main"
+  >
+    <div
+      className="search"
+    >
+      <p>
+        Busca ofertas en hoteles, casas y mucho más
+      </p>
+      <section>
+        <div
+          className="container"
+        >
+          <input
+            className="input"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="¿A dónde vamos?"
+            type="text"
+            value=""
+          />
+          <div
+            className="containerLocations"
+          >
+            <ul
+              className="locaciones"
+            />
+          </div>
+        </div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="input datapicker"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Check-in/ Check-out"
+              readOnly={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <a
+          href="/product"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+           
+          <button
+            className="button2"
+          >
+            Buscar
+          </button>
+        </a>
+      </section>
+    </div>
+    <div
+      className="searchCategory"
+    >
+      <section
+        className="searchByType"
+      >
+        <h4>
+          Buscar por tipo de alojamiento
+        </h4>
+        <p>
+          Cargando Categorías...
+        </p>
+        <div
+          className="categoryCards"
+        />
+      </section>
+    </div>
+    <div>
+      <section
+        className="recommendation"
+      >
+        <div
+          className="recommendationContainer"
+        >
+          <h4
+            className="recommendationtitle"
+          >
+            Recomendaciones
+          </h4>
+          <div
+            className="recommendationCards"
+          >
+            <p>
+              Cargando Recomendaciones...
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer
+    className="footer"
+  >
+    <h6>
+      ©2021 Digital Booking
+    </h6>
+    <div
+      className="social"
+    >
+      <i
+        className="fab fa-facebook"
+      />
+      <i
+        className="fab fa-linkedin-in"
+      />
+      <i
+        className="fab fa-twitter"
+      />
+      <i
+        className="fab fa-instagram"
+      />
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /product/1 renderiza el componente SingleProduct. 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /register renderiza el componente Sign Up. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="signup"
+  >
+    <h2>
+      Crear cuenta
+    </h2>
+    <section
+      className="fullname"
+    >
+      <div
+        className="item"
+      >
+        <p>
+          Nombre
+        </p>
+        <input
+          className="input"
+          name="nombre"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="item"
+      >
+        <p>
+          Apellido
+        </p>
+        <input
+          className="input"
+          name="apellido"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </section>
+    <div
+      className="item"
+    >
+      <p>
+        Correo electrónico
+      </p>
+      <input
+        className="input"
+        name="email"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="item"
+    >
+      <p>
+        Contraseña
+      </p>
+      <input
+        className="input"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <i
+        className="fas fa-eye-slash"
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+      />
+    </div>
+    <div
+      className="item"
+    >
+      <p>
+        Confirmar contraseña
+      </p>
+      <input
+        className="input"
+        name="repassword"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <i
+        className="fas fa-eye-slash"
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+      />
+    </div>
+    <h6
+      className="errorm"
+    />
+    <button
+      className="button"
+      name="submit"
+    >
+      Registrate
+    </button>
+    <div
+      className="create"
+    >
+      <p>
+        ¿Ya tienes cuenta?
+      </p>
+      <a
+        href="/login"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <h5>
+          Inicia sesión
+        </h5>
+      </a>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta /reservation/1 renderiza el componente Forbidden. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="forbidden.png"
+    />
+    <h3
+      className="title"
+    >
+      Login necesario
+    </h3>
+    <h5
+      className="info"
+    >
+      Para acceder a esta página se requiere iniciar sesión.
+    </h5>
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+      >
+        Iniciar sesión
+      </button>
+    </a>
+  </section>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta cancellation renderiza el componente ResSuccess. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="checked.png"
+    />
+    <h3
+      className="title"
+    />
+    <h5
+      className="info"
+    />
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+      />
+    </a>
+  </section>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta confirmation renderiza el componente ResSuccess. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="checked.png"
+    />
+    <h3
+      className="title"
+    />
+    <h5
+      className="info"
+    />
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+      />
+    </a>
+  </section>
+</div>
+`;
+
+exports[`Pruebas en componente <App /> Comprobar que la ruta verification renderiza el componente ResSuccess. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="checked.png"
+    />
+    <h3
+      className="title"
+    >
+      ¡Muchas gracias!
+    </h3>
+    <h5
+      className="info"
+    >
+      Su email ha sido verificado exitosamente.
+    </h5>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+      >
+        Volver al home
+      </button>
+    </a>
+  </section>
+</div>
+`;

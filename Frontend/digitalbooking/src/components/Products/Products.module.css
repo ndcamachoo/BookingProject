@@ -1,0 +1,103 @@
+.productsList{
+  min-height: 93vh;
+  background-color: var(--background-color2);
+  padding: 68px 0px 0px 0px;
+}
+
+.recommendationContainer{
+  background-color: var(--background-color2);
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+.recommendation {
+  background-color: var(--background-color2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 0px 20px 0px;
+  width: 90vw;
+}
+
+.title{
+  align-items: center;
+  background-color: var(--color-typo);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.titleContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px 10px 0px;
+  margin-bottom: 15px;
+  width: 90vw;
+}
+
+.title i{
+  color:var(--background-white);
+  padding: 0px;
+}
+
+.placeInfo{
+  color: var(--background-white);
+  font-size: 16px;
+  width:90%
+}
+
+.recommendationtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.recommendationCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.loadMore{
+  align-items: center;
+  background-color: var(--background-white);
+  border: 1.4px solid var(--principal-color);
+  border-radius: 5px;
+  color: var(--principal-color);
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  margin: 50px 450px 0 450px;
+  padding: 6px 30px 5px 30px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.loadMore:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: scale(0.97);
+}
+
+.loadMore:hover {
+  background-color: var(--principal-color);
+  color: var(--background-white);
+} 
+
+@media (max-width: 768px) {
+  
+  .recommendationCards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 480px) {
+}

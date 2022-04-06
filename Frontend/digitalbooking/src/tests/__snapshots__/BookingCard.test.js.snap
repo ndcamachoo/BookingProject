@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <BookingCard /> Comprobar que BookingCard renderiza correctamente. 1`] = `
+<article
+  className="bookingCards"
+>
+  <p>
+    Agregá tus fechas de viaje para obtener precios exactos
+  </p>
+  <Link
+    className="resButton"
+    to="../login/resFailed"
+  >
+    <button>
+      Iniciar reserva
+    </button>
+  </Link>
+</article>
+`;

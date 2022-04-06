@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "cloud.aws.credentials.access-key",
+      "type": "java.lang.String",
+      "description": "Description for cloud.aws.credentials.access-key."
+  }
+] }

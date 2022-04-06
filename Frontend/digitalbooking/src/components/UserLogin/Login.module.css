@@ -1,0 +1,156 @@
+.login {
+  align-items: center;
+  background-color: var(--background-color2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 93vh;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 130px;
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.login img{
+  width: 400px;
+}
+.resLogin{
+  align-items: center;
+  background-color: #FAE0E0;
+  border-radius: 5px;
+  color:#B00020;
+  display: flex;
+  height: 36px;
+  justify-content: center;
+  align-items:center;
+  margin: 0 0 15px 5px;
+  padding: 0px 0px;
+  width: 385px;
+}
+
+.resLogin i{
+  color:#B00020;
+  padding:0px;
+  margin: 0px;
+}
+
+.create {
+  display: flex;
+  flex-direction: row;
+}
+
+.create h5 {
+  color: var(--principal-color);
+  font-size: 12px;
+  padding: 10px 0 0 3px;
+  text-decoration: none;
+}
+
+.login h2 {
+  color: var(--principal-color);
+  padding-bottom: 10px;
+}
+
+.item {
+  padding-top: 0px;
+}
+
+.item input {
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  height: 25px;
+  margin-left: 5px;
+  padding: 15px;
+  width: 385px;
+}
+
+.button {
+  background-color: var(--principal-color);
+  border-radius: 5px;
+  border: none;
+  color: var(--background-white);
+  height: 30px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  width: 225px;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: scale(0.98);
+}
+
+.login p {
+  font-size: 12px;
+  padding: 10px 0px 5px 8px;
+}
+
+i {
+  color: gray;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.input {
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  margin-left: 5px;
+  outline: none;
+  padding: 15px;
+  width: 250px;
+}
+.errorm {
+  color: red;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.successm {
+  color: var(--principal-color);
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .login input {
+    height: 25px;
+    width: 300px;
+  }
+  
+  .login button {
+    width: 300px;
+  }
+
+  .resLogin{
+    margin: 0 0 25px 5px;
+    height: 50px;
+    width: 300px;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

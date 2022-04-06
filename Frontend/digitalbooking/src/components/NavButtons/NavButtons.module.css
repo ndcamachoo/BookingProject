@@ -1,0 +1,27 @@
+
+.hide{
+  display: none !important;
+  visibility:hidden;
+
+}
+
+.registerButtons {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+
+
+  
+@media (max-width: 768px) {
+  .registerButtons {
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 480px) {
+  .registerButtons {
+    display: none;
+  }
+}

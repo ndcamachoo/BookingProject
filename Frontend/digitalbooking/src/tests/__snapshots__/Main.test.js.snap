@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Main/> Comprobar que <Main/> renderiza correctamente. 1`] = `
+<main
+  className="main"
+>
+  <SearchBar />
+  <CategoryContainer />
+  <Recommendations />
+</main>
+`;

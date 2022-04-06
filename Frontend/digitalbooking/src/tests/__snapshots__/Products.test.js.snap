@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente  Products /> Comprobar que  Products /> renderiza correctamente. 1`] = `
+<div
+  className="productsList"
+>
+  <section
+    className="title"
+  >
+    <div
+      className="titleContainer"
+    >
+      <h4
+        className="placeInfo"
+      >
+         
+        Resultados de tu búsqueda en {"place":"Buenos Aires, Capital Federal, Argentina"}
+      </h4>
+       
+      <i
+        className="fas fa-arrow-left"
+        onClick={[Function]}
+      />
+    </div>
+  </section>
+  <div
+    className="recommendationContainer"
+  >
+    <section
+      className="recommendation"
+    >
+      <h4
+        className="recommendationtitle"
+      >
+        Productos disponibles para el día 28 de Nov del 2021 hasta el 30 de Nov del 2021  
+      </h4>
+      <div
+        className="recommendationCards"
+      >
+        <p>
+          Cargando Recomendaciones...
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+`;

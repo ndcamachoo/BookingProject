@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <ReviewCounts /> Comprobar que <ReviewCounts /> renderiza correctamente. 1`] = `
+<div
+  className="review"
+>
+  <h5>
+    10
+  </h5>
+  <h6>
+    Excelente
+  </h6>
+</div>
+`;

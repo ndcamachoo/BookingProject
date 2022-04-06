@@ -1,0 +1,274 @@
+.grid {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+  /*background-color: darkseagreen;*/
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  /*background-color: deepskyblue;*/
+}
+
+/*social icons section*/
+.social {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0px 20px 0px;
+}
+
+.social i {
+  color: var(--color-typo);
+  font-family: "Font Awesome 5 Free";
+  margin: 0;
+  padding-right: 10px;
+}
+
+.shareIcon{
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+.shareIcon:active{
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+  both;
+animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.notFav {
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+.notFav i:active {
+  -webkit-animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.trueFav i {
+  cursor: pointer;
+  color: var(--seconday-color);
+  transition: 0.9s;
+}
+
+.trueFav i:active {
+  -webkit-animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/*title see more*/
+.gridContainer h5 {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative;
+  align-self: flex-end;
+  margin-right: 2%;
+  z-index: 4;
+  bottom: 30px;
+}
+
+/*images section*/
+.image {
+  align-self: center;
+  display: grid;
+  /*grid-template-columns: repeat(4, 1fr) 0;
+  grid-template-rows: repeat(2, 1fr) repeat(3, 0);
+  grid-column-gap: 5px;
+  row-gap: 1vmin;*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding: 0px;
+  width: 100%;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 3;
+  height: 100%;
+  width: 100%;
+}
+
+.div1 img {
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.div2 {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 100%;
+  height: 100%;
+  object-position: 100% 0;
+}
+
+.div2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.div3 {
+  grid-area: 1 / 4 / 2 / 5;
+  width: 100%;
+  height: 100%;
+  object-position: 100% 0;
+}
+
+.div3 img {
+  border-radius: 0 10px 0 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.div4 {
+  grid-area: 2 / 3 / 3 / 4;
+  width: 100%;
+  height: 100%;
+  object-position: 100% 0;
+}
+
+.div4 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.div5 {
+  grid-area: 2 / 4 / 3 / 5;
+  width: 100%;
+  height: 100%;
+  object-position: 100% 0;
+}
+
+.div5 img {
+  border-radius: 0 0 10px 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.wrapper {
+  background-color: #202020;
+}
+
+.share {
+  position: absolute;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    width: 100%;
+    /*background-color: darkseagreen;*/
+  }
+
+  .social i {
+    padding-right: 10px;
+  }
+
+  /*title see more*/
+  .gridContainer h5 {
+    bottom: 35px;
+  }
+
+  .image {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100vw;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 100%;
+    width: 100%;
+  }
+
+  .div1 img {
+    border-radius: 0px 0px 0px 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+  }
+
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    display: none;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .gridContainer h5 {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .gridContainer {
+    position: absolute;
+  }
+  /*social icons section*/
+  .social {
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    top: 20px;
+    z-index: 6;
+  }
+
+  .social i {
+    color: white;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Validation Email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- use the font -->
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        *{
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 48px;
+            background: #f8f9fa;
+        }
+        header{
+            background: #f8f9fa;
+            padding: 15px 50px 5px 40px ;
+        
+        }
+        a:visited, a:link, a:active {
+            color: #1dbeb4
+        }
+        p{
+            font-size: 13px;
+            color: black;
+            margin-top: 10px;
+            padding: 15px 50px 5px 40px ;
+        }
+        footer{
+            align-items: center;
+            background-color: #1dbeb4;
+            bottom: 0;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px 50px 10px 40px ;
+            margin-top: 40px;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://lh3.google.com/u/1/d/1-RpWIN_k09vQmguOzmrgsXXtDQ32mzkd=w1920-h960-iv1" alt="Logo" />
+        </header>
+        <p th:text="${'Hello Dear ' + name}"></p>
+        <p>
+            You have been successfully subscribed to the <b>G4 Booking</b> on
+            <span th:text="${#dates.format(#dates.createNow(), 'dd MMM yyyy HH:mm')}"></span>
+        </p>
+
+        <p>
+            You can <b>verify your email</b> in this link
+            <a th:text="${verifylink}" th:href="${verifylink}"></a>
+            <a href="link.com">link.com</a>
+        </p>
+        <p>
+            Regards
+            <b>G4 Booking Team</b>
+        </p>
+        <footer>
+            <h6>©2021 Digital Booking</h6>
+            <div className="social">
+              <i className="fab fa-facebook"></i>
+              <i className="fab fa-linkedin-in"></i>
+              <i className="fab fa-twitter"></i>
+              <i className="fab fa-instagram"></i>
+            </div>
+          </footer>
+    
+    </body>
+</html>

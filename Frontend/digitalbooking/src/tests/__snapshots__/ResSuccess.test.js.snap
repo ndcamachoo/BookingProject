@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <ResSuccess /> Comprobar que <ResSuccess /> renderiza correctamente. 1`] = `
+<div
+  className="confirmation"
+>
+  <section
+    className="success"
+  >
+    <img
+      alt="Ícono de reserva realizada."
+      src="checked.png"
+    />
+    <h3
+      className="title"
+    />
+    <h5
+      className="info"
+    />
+    <Link
+      to="/"
+    >
+      <button
+        className="button"
+      />
+    </Link>
+  </section>
+</div>
+`;

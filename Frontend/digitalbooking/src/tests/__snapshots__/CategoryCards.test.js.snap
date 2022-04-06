@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comprobar el correcto funcionamiento del componente <CategoryCard/> Verificar que el componente renderiza corectamente  1`] = `
+<article
+  className="categoryCards"
+>
+  <img
+    alt="Lorem ipsum"
+    src="https://images.unsplash.com/photo-1584704876450-0eb3fd5a2f65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80"
+  />
+  <h5>
+    Hermoso departamento en la playa.
+  </h5>
+  <p>
+     
+    Hermoso departamento en la playa.
+  </p>
+</article>
+`;

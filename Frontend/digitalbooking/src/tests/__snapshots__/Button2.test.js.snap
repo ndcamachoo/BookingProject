@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Button2 /> Comprobar que <Button2 /> renderiza correctamente. 1`] = `
+<Link
+  onClick=""
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+  to="/"
+>
+   
+  <button
+    className="button2"
+  >
+    Ver mas
+  </button>
+</Link>
+`;

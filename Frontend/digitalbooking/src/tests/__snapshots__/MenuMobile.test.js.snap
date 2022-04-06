@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <MenuMobile/> Comprobar que <MenuMobile/> renderiza correctamente. 1`] = `
+<div
+  className="menuhide"
+>
+  <MenuMobileDefault />
+  <div
+    className="social"
+  >
+    <section
+      className="header"
+    />
+    <div
+      className="socialbar"
+    >
+      <i
+        className="fab fa-facebook"
+      />
+      <i
+        className="fab fa-linkedin-in"
+      />
+      <i
+        className="fab fa-twitter"
+      />
+      <i
+        className="fab fa-instagram"
+      />
+    </div>
+  </div>
+</div>
+`;

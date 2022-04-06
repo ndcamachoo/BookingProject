@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <GridBanner /> Comprobar que <GridBanner /> renderiza correctamente. 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="gridContainer"
+  >
+    <div
+      className="social"
+    >
+      <div
+        className="shareIcon"
+      >
+        <i
+          className="fas fa-share-alt"
+          onClick={[Function]}
+        />
+      </div>
+      <Favorites />
+    </div>
+    <div
+      className="image"
+    >
+      <div
+        className="div1"
+      >
+        <img
+          alt="imagen"
+          src="https://images.unsplash.com/photo-1440778303588-435521a205bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9saWRheXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div
+        className="div2"
+      >
+        <img
+          alt="imagen"
+          src="https://images.unsplash.com/photo-1527179528411-4219e0714bcc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aG9saWRheXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div
+        className="div3"
+      >
+        <img
+          alt="imagen"
+          src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG9saWRheXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div
+        className="div4"
+      >
+        <img
+          alt="imagen"
+          src="https://images.unsplash.com/photo-1487349384428-12b47aca925e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9saWRheXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div
+        className="div5"
+      >
+        <img
+          alt="imagen"
+          src="https://images.unsplash.com/photo-1447501614729-24781f73c2f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbGlkYXl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+    </div>
+    <h5
+      onClick={[Function]}
+    >
+      Ver más
+    </h5>
+  </div>
+</div>
+`;

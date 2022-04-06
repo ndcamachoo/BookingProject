@@ -1,0 +1,24 @@
+.toTop{
+  border: none;
+  background-color: transparent;
+  position: absolute;
+}
+
+.toTop i {
+  background-color: var(--color-typo2);
+  border-radius: 60%;
+  border: none;
+  bottom: 75px;
+  color: var(--background-white);
+  font-size: 14px;
+  padding: 7px 8px;
+  position: fixed;
+  opacity: 0.85;
+  right: 15px;
+  z-index: 4;
+}
+
+.toTop i:hover {
+  background-color: var(--color-typo);
+  cursor: pointer;
+}

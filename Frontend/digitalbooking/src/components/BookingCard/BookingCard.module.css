@@ -1,0 +1,124 @@
+.bookingCards{
+
+    align-self: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:40px;
+    width:23%;
+    height:110px;
+
+}
+
+.bookingCards button{
+    background-color: transparent;
+    border: none;
+    color: var(--background-white);
+    cursor: pointer;
+}
+
+.resButton{
+
+    align-items: center;
+    background-color: var(--principal-color);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    height: 30px;
+    text-decoration: none;
+    width: 90%;
+}
+
+.bookingCards p{
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+    width: 90%;
+    text-align: center;
+}
+
+@media (max-width: 1046px){
+
+    .bookingCards{
+
+        margin-top: 30px;
+        margin-left:0px;
+        width:50%;
+    
+    }
+
+    .bookingCards button{
+
+        width: 75%;
+    }
+    
+    .bookingCards p{
+        font-weight: 600;
+        margin: 0px 0px 15px 0px;
+        width: 90%;
+        text-align: center;
+    }
+    
+
+}
+
+@media (max-width: 768px){
+
+    .bookingCards{
+
+        align-self: center;
+        background-color: transparent;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+        display:flex;
+        flex-direction: row;
+        align-items:flex-end;
+        justify-items: space-between;
+        margin-left:0px;
+        width:100%;
+        height:80px;
+        
+    
+    }
+
+    .bookingCards button{
+
+        width: 50%;
+    }
+
+    .bookingCards p{
+
+        margin: 0px 10px 0px 0px;
+        width: 50%;
+        text-align: left;
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+    .bookingCards{
+        align-self: center;
+        flex-direction: column;
+        align-items:center;
+        width:100%;
+        height:100px;
+    }
+
+    .bookingCards button{
+        width: 90%;
+    }
+
+    .bookingCards p{
+        margin: 0px 0px 10px 0px;
+        width: 90%;
+        text-align: center;
+    }
+
+}

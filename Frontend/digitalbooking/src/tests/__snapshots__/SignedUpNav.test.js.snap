@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <SignedUpNav /> Comprobar que <SignedUpNav /> renderiza correctamente. 1`] = `
+<div
+  className="signedBar"
+>
+  <a
+    href="/preferences"
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+  >
+    <i
+      className="fas fa-user"
+    />
+  </a>
+  <div
+    className="section"
+  >
+    <h4
+      className="avatar"
+    >
+      AP
+    </h4>
+    <div>
+      <p>
+        Hola,
+      </p>
+      <p
+        className="names"
+      >
+        Agustina Pasqualis
+      </p>
+    </div>
+    <h5
+      className="logout"
+      onClick={[Function]}
+    >
+      X
+    </h5>
+  </div>
+</div>
+`;
